@@ -1,1 +1,1 @@
-exports.image = require('./lib/image');
+exports = require('./lib/image');
