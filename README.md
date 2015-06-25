@@ -59,51 +59,6 @@ url中`:config`表示此参数可以省略
 	http://localhost:9527/comic/:width
 ```
 
-## test
-
-```
-	mocha test
-```
-
-## 字体
-
-- 中文字体可选：
-
-	* 丽黑体
-	* 康熙字典体
-
-- 英文字体可选：
-
-	* Bariol
-	* DIN Pro
-
-> 如有侵权立删
-
-## comic来源
-
-所random的所有动漫头像来自于[bilibili](http://www.bilibili.com/video/bgm_calendar.html),如有侵权立删
-
-
-## log
-
-- 2015年05月12日[1.0.5] 增加comic选项
-- 2015年05月14日[1.0.6] 优化显示的图片位置，优化font类
-- 2015年05月15日[1.0.7] 更改随机颜色的颜色值为[日本传统色](http://zh.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%BC%A0%E7%BB%9F%E8%89%B2%E7%B3%BB)
-- 2015年05月20日[1.0.8] 去掉全局模式的[todo]，更改入口函数的使用方式
-
-## 类似项目
-
-[Material-Design-Avatars](https://github.com/lincanbin/Material-Design-Avatars)
-
-## TODOS
-
-- [ ] 除去gm依赖,直接操作imagemagick
-- [ ] 更多type可选
-- [ ] 优化生成效率和生成的位置
-
-## 致谢
-
-字体排版设计[@虐猫狂魔王这样](http://weibo.com/u/1938141191)
 
 ## LICENSE
 
