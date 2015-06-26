@@ -17,17 +17,19 @@ npm install initials-avatar-generator --save
 the first arguments is config
 
 ```javascript
-var image = require('initials-avatar-generator').image
-var fs = require('fs')
+var AvatarGenerator = require('initials-avatar-generator').AvatarGenerator;
+
 var option = {
-	width:100, //可选值 integer
-	color:eb002a, //rgb
-	font:kx //kx,lihei,bariol,din
-}
-//return a buffer
-image(option,function(buffer){
-	fs.writeFile('file.png',buffer)	
-})
+    width: 100,
+    text: 'JL',
+    color: '#FF0000'
+  };
+  var avatarGenerator = new AvatarGenerator();
+  avatarGenerator.generate(option, function (image) {
+    image //image is ImageMagick object - you can do whatever you want with it!
+      .stream('png') // make a stream out of it
+      .pipe(res); //pipe it to output, or maybe a file?
+  });
 ```
 ## LICENSE
 
