@@ -1,1 +1,1 @@
-exports = require('./lib/image');
+module.exports.AvatarGenerator = require('./lib/image').AvatarGenerator;
