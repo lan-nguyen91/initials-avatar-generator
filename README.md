@@ -14,7 +14,6 @@ then in your project
 npm install initials-avatar-generator --save
 
 ```
-the first arguments is config
 
 ```javascript
 var AvatarGenerator = require('initials-avatar-generator').AvatarGenerator;
