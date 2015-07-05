@@ -1,19 +1,21 @@
 # initials-avatar-generator
-Avatar generator with initials.
+Generates avatars with initials (or random text).
 
-## getting start
-make sure you have install `imagemagick`
+## Getting started
+Install `imagemagick`
 
 ```
 brew install imagemagick
 ```
 
-then in your project
+then install this package through npm:
 
 ```
 npm install initials-avatar-generator --save
 
 ```
+
+How to use this code:
 
 ```javascript
 var AvatarGenerator = require('initials-avatar-generator').AvatarGenerator;
@@ -30,11 +32,19 @@ var option = {
       .pipe(res); //pipe it to output, or maybe a file?
   });
 ```
-## LICENSE
+
+## Configuration options
+
+width - width & height of the image
+text - your initials or any other text
+color - color of the background
+font - font to use - options are `bariol` or `din`
+
+## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Shadow Cun <[vinthony@gmail.com](vinthony@gmail.com)>
+Copyright (c) 2015 Jakub Leśniak
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
