@@ -21,6 +21,7 @@
     "gm": "^1.17.0"
   },
   "devDependencies": {
+    "chai": "^3.0.0",
     "gulp": "^3.8.11",
     "mocha": "*"
   }
